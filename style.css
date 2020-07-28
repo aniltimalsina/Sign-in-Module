@@ -1,0 +1,52 @@
+.loginBox {
+    
+    width: 360px;
+    margin: auto;
+    padding: 10% 0 0;
+}
+
+.formSpace {
+
+    max-width: 360px;
+    background:  rgba(7, 140, 195, 0.8);
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.formSpace input {
+    background: #f2f2f2;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 15px;
+    padding: 15px;
+    border: 0;
+    box-sizing: border-box;
+    outline: 1;
+}
+
+.formSpace label {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.formSpace button {
+    padding: 15px;
+    width: 100%;
+    background: #4CAF50;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    border: 0;
+    text-transform: uppercase;
+    outline: 0;
+}
+
+.formSpace button:hover, .formSpace button:active {
+    background: #43A047;
+}
+
+.formSpace .registration {
+    display: none;
+}
